@@ -3,9 +3,9 @@
   padding: 0;
 }
 
-#vnit{
-  background-color:#114184a9;
-  color: white; 
+#vnit {
+  background-color: #114184a9;
+  color: white;
   height: 3rem;
   font-size: 1.5rem;
   display: flex;
@@ -28,11 +28,14 @@ body::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('./images/result.jpg'); /* Replace with your image URL */
+  background-image: url('./images/result.jpg');
+  /* Replace with your image URL */
   background-size: cover;
   background-position: center;
-  opacity: 0.8; /* Set opacity */
-  z-index: -1; /* Ensure it is behind all other content */
+  opacity: 0.8;
+  /* Set opacity */
+  z-index: -1;
+  /* Ensure it is behind all other content */
 }
 
 #outerdiv {
@@ -48,6 +51,7 @@ body::before {
   min-height: 35vh;
   width: 40vh;
 }
+
 form {
   margin: 2rem 0 1rem 0;
 }

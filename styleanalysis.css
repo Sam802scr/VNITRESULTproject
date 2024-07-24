@@ -1,11 +1,12 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     color: white;
 }
-#vnit{
-    background-color:#114184a9;
-    color: white; 
+
+#vnit {
+    background-color: #114184a9;
+    color: white;
     height: 3rem;
     font-size: 1.5rem;
     display: flex;
@@ -18,23 +19,26 @@ body {
     min-height: 100vh;
     position: relative;
     background-color: black;
-  }
-  
-  body::before {
+}
+
+body::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('./images/Analysisimg.jpg'); /* Replace with your image URL */
+    background-image: url('./images/Analysisimg.jpg');
+    /* Replace with your image URL */
     background-size: cover;
     background-position: center;
-    opacity: 0.55; /* Set opacity */
-    z-index: -1; /* Ensure it is behind all other content */
-  }
+    opacity: 0.55;
+    /* Set opacity */
+    z-index: -1;
+    /* Ensure it is behind all other content */
+}
 
-#resultanalysis{
+#resultanalysis {
     height: 5rem;
     font-size: 2rem;
     display: flex;
@@ -42,18 +46,23 @@ body {
     justify-content: center;
     align-items: center;
 }
-.container{
+
+.container {
     margin-top: 5rem;
     display: flex;
-    justify-content: space-around;  
+    justify-content: space-around;
 }
-img{
-    border:3px solid black
+
+img {
+    border: 3px solid black
 }
-.left,.right{
+
+.left,
+.right {
     text-align: center;
 }
-.tags{
+
+.tags {
     margin-top: 3rem;
     font-size: 2rem;
 }
