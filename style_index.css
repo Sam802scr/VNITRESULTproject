@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#vnit{
+    background-color: #114184a9;
+    color: white; 
+    height: 2.7rem;
+    font-size: 1.5rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.509);
+    position: relative;
+  }
+  
+  body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('./images/homeimg.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8; /* Set opacity */
+    z-index: -1; /* Ensure it is behind all other content */
+  }
+#results{
+    background-color: #3465aa86;
+    color:rgb(255, 255, 255);
+    display: flex;
+    height: 1.8rem;
+    font-size: 1.25rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.list{
+    display: flex;
+    height: 1.6rem;
+    justify-content: center;
+    background-color: #587fb684;
+    align-items: center;
+    text-align: center;
+}
+.list ul{
+    display: flex;
+    color:white;
+    list-style-type: none;
+    width: 60%;
+    justify-content:space-around ;
+}
+.list li{
+    font-size: 1.1rem;
+}
+.list a {
+    text-decoration: none;
+    color: inherit;
+    transition:  0.3s ease-in;
+}
+.list a:hover{
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+}
+.container{
+    display: flex;
+    width: 90%;
+    margin-top: 65px;
+    padding: 0 20px; 
+    justify-content: center;
+}
+#left img{
+    border-radius: 50px; 
+}
+#right { 
+    padding: 0 40px;
+    margin-left: 20px;
+    width:50%;
+    background-color: #d2deedc3;
+    border-radius: 50px;
+    font-size: 1.08rem;
+}
+#right h3{
+    text-align: center; 
+    margin-top: 10px; 
+    margin-bottom: 20px; 
+}
+p {
+    text-align: justify;
+}

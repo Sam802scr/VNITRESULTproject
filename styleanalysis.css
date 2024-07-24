@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+#vnit{
+    background-color:#114184a9;
+    color: white; 
+    height: 3rem;
+    font-size: 1.5rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    min-height: 100vh;
+    position: relative;
+    background-color: black;
+  }
+  
+  body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('./images/Analysisimg.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.55; /* Set opacity */
+    z-index: -1; /* Ensure it is behind all other content */
+  }
+
+#resultanalysis{
+    height: 5rem;
+    font-size: 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;  
+}
+img{
+    border:3px solid black
+}
+.left,.right{
+    text-align: center;
+}
+.tags{
+    margin-top: 3rem;
+    font-size: 2rem;
+}
