@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COURSEANALYSIS - Histogram</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'styleresult.css' %}">
+</head>
+<body>
+    <div class="header">
+        <h1 id="vnit"> Visvesvaraya National Institute of Technology, Nagpur</h1>
+    </div>
+    <div id="outerdiv">
+        <div class="container">
+            <h2>Select Branch</h2>
+            <form method="GET">
+                <select id="options" name="options">
+                    <option value="cse">Computer Science Engineering</option>
+                    <option value="ece">Electronics and Communication Engineering</option>
+                    <option selected="selected" value="eee">Electrical and Electronics Engineering</option>
+                    <option value="mech">Mechanical Engineering</option>
+                    <option value="civil">Civil Engineering</option>
+                    <option value="chem">Chemical Engineering</option>
+                    <option value="meta">Metallurgical and Materials Engineering</option>
+                    <option value="min">Mining Engineering</option>
+                </select>
+                <button type="submit">Get Analysis</button>
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Histogram</h2>
+        <img src="data:image/png;base64,{{ image_base64 }}" alt="CGPA Histogram">
+    </div>
+</body>
+</html>

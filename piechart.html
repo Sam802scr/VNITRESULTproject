@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COURSEANALYSIS-piechart</title>
+    <link rel="stylesheet" href="styleresult.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1 id="vnit"> Visvesvaraya National Institute of Technology, Nagpur</h1>
+    </div>
+    <div id="outerdiv">
+        <div class="container">
+            <h2>Select Course</h2>
+            <form>
+                <select id="options" name="options">
+                    <option value="ENGINEERING MECHANICS - I [CSE/ECE/EEE/CME-S] (ES)-4">ENGINEERING MECHANICS - I
+                        [CSE/ECE/EEE/CME-S] (ES)-4</option>
+                    <option value="ENGINEERING MECHANICS - I [CSE/ECE/EEE/CME-S] (ES)-1">ENGINEERING MECHANICS - I
+                        [CSE/ECE/EEE/CME-S] (ES)-1</option>
+                    <option value="COMMUNICATION SKILL (HM)-3">COMMUNICATION SKILL (HM)-3</option>
+                    <option value="MATHEMATICS I (BS)-4">MATHEMATICS I (BS)-4</option>
+                    <option value="ENGINEERING DRAWING (ES)-3">ENGINEERING DRAWING (ES)-3</option>
+                    <option value="ENGINEERING DRAWING (ES)-1">ENGINEERING DRAWING (ES)-1</option>
+                    <option value="PHYSICS - I [CSE/ECE/EEE/MEC] (BS)-4">PHYSICS - I [CSE/ECE/EEE/MEC] (BS)-4</option>
+                    <option value="PHYSICS - I [CSE/ECE/EEE/MEC] (BS)-1">PHYSICS - I [CSE/ECE/EEE/MEC] (BS)-1</option>
+                </select>
+                <button type="button" onclick="getAnalysis()">Get Analysis</button>
+            </form>
+            <canvas id="pieChart"></canvas>
+        </div>
+    </div>
+
+    <script src="scriptpie.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+
+</html>
